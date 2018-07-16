@@ -4,7 +4,9 @@ class Card extends Component {
     render() {
         return (
             <div className='card'>
-                { Input(verb) }
+                { Input('color') }
+                { Input('plural noun') }
+                { Input('adjective') }
             </div>
         )
         
